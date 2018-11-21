@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "camelcase": "warn",
+        "comma-dangle": ["error", "never"],
+        "object-curly-newline": "off",
+        "no-plusplus": "warn",
+        "no-unused-expressions": ["error", { "allowTernary": true }]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    presets: [
+        [
+            '@babel/env',
+            {
+                loose: true,
+                modules: false
+            }
+        ]
+    ],
+    plugins: [
+        ['@babel/proposal-object-rest-spread', { loose: true }]
+    ]
+}
